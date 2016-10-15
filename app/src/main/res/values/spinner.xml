@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jurusan">
+        <item>Malang-Jakarta</item>
+        <item>Malang-Denpasar</item>
+        <item>Malang-Bandung</item>
+        <item>Malang-Jogja</item>
+        <item>Malang-Bogor</item>
+    </string-array>
+</resources>
