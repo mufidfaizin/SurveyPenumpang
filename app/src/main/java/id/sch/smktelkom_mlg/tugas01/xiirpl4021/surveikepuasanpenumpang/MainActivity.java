@@ -129,6 +129,23 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     }
 
 
+    private boolean isValid()
+    {
+        boolean valid = true;
+
+        String KoSan = etComment.getText().toString();
+
+        if (KoSan.isEmpty())
+        {
+            etComment.setError("Anda belum mengisi kritik dan saran");
+            valid =false;
+        }
+        else
+        {
+            etComment.setError(null);
+        }
+        return  valid;
+    }
 
 
 
